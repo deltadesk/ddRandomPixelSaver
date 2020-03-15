@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A9DFB416241E9209004847AB /* ddRandomPixelSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ddRandomPixelSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92AC3EE241E968C003CFD05 /* DeltaDesk Random Pixels.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DeltaDesk Random Pixels.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DFB419241E9209004847AB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A9DFB41B241E9209004847AB /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 		A9DFB41E241E9209004847AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -40,21 +40,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A92AC3EF241E96B0003CFD05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A92AC3EE241E968C003CFD05 /* DeltaDesk Random Pixels.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A9DFB409241E9209004847AB = {
 			isa = PBXGroup;
 			children = (
 				A9DFB421241E9209004847AB /* ddRandomPixelSaver */,
 				A9DFB418241E9209004847AB /* Frameworks */,
-				A9DFB417241E9209004847AB /* Products */,
+				A92AC3EF241E96B0003CFD05 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		A9DFB417241E9209004847AB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A9DFB416241E9209004847AB /* ddRandomPixelSaver.saver */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A9DFB418241E9209004847AB /* Frameworks */ = {
@@ -110,9 +110,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A9DFB415241E9209004847AB /* ddRandomPixels */ = {
+		A9DFB415241E9209004847AB /* DeltaDesk Random Pixels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "ddRandomPixels" */;
+			buildConfigurationList = A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "DeltaDesk Random Pixels" */;
 			buildPhases = (
 				A9DFB410241E9209004847AB /* Sources */,
 				A9DFB411241E9209004847AB /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = ddRandomPixels;
+			name = "DeltaDesk Random Pixels";
 			productName = ddRandomPixelSaver;
-			productReference = A9DFB416241E9209004847AB /* ddRandomPixelSaver.saver */;
+			productReference = A92AC3EE241E968C003CFD05 /* DeltaDesk Random Pixels.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -145,11 +145,11 @@
 				en,
 			);
 			mainGroup = A9DFB409241E9209004847AB;
-			productRefGroup = A9DFB417241E9209004847AB /* Products */;
+			productRefGroup = A9DFB409241E9209004847AB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9DFB415241E9209004847AB /* ddRandomPixels */,
+				A9DFB415241E9209004847AB /* DeltaDesk Random Pixels */,
 			);
 		};
 /* End PBXProject section */
@@ -283,13 +283,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "ddRandomPixels" */ = {
+		A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "DeltaDesk Random Pixels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9DFB42E241E9209004847AB /* Debug */,
 				A9DFB42F241E9209004847AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

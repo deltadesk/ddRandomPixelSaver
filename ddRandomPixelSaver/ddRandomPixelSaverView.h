@@ -3,7 +3,7 @@
 //  ddRandomPixelSaver
 //
 //  Created by Andreas Meyer on 15.03.20.
-//  Copyright (c) 2020 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2020 DeltaDesk. All rights reserved.
 //
 
 #import <ScreenSaver/ScreenSaver.h>
