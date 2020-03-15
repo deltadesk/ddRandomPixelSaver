@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9DFB41A241E9209004847AB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DFB419241E9209004847AB /* Cocoa.framework */; };
+		A9DFB41C241E9209004847AB /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DFB41B241E9209004847AB /* ScreenSaver.framework */; };
+		A9DFB426241E9209004847AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9DFB424241E9209004847AB /* InfoPlist.strings */; };
+		A9DFB42A241E9209004847AB /* ddRandomPixelSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DFB429241E9209004847AB /* ddRandomPixelSaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9DFB416241E9209004847AB /* ddRandomPixelSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ddRandomPixelSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DFB419241E9209004847AB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A9DFB41B241E9209004847AB /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		A9DFB41E241E9209004847AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A9DFB41F241E9209004847AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A9DFB420241E9209004847AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9DFB423241E9209004847AB /* ddRandomPixelSaver-Info.plist */ = {isa = PBXFileReference; path = "ddRandomPixelSaver-Info.plist"; sourceTree = "<group>"; };
+		A9DFB425241E9209004847AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9DFB427241E9209004847AB /* ddRandomPixelSaver-Prefix.pch */ = {isa = PBXFileReference; path = "ddRandomPixelSaver-Prefix.pch"; sourceTree = "<group>"; };
+		A9DFB428241E9209004847AB /* ddRandomPixelSaverView.h */ = {isa = PBXFileReference; path = ddRandomPixelSaverView.h; sourceTree = "<group>"; };
+		A9DFB429241E9209004847AB /* ddRandomPixelSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ddRandomPixelSaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DFB411241E9209004847AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DFB41A241E9209004847AB /* Cocoa.framework in Frameworks */,
+				A9DFB41C241E9209004847AB /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9DFB409241E9209004847AB = {
+			isa = PBXGroup;
+			children = (
+				A9DFB421241E9209004847AB /* ddRandomPixelSaver */,
+				A9DFB418241E9209004847AB /* Frameworks */,
+				A9DFB417241E9209004847AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DFB417241E9209004847AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFB416241E9209004847AB /* ddRandomPixelSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DFB418241E9209004847AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFB419241E9209004847AB /* Cocoa.framework */,
+				A9DFB41B241E9209004847AB /* ScreenSaver.framework */,
+				A9DFB41D241E9209004847AB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9DFB41D241E9209004847AB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFB41E241E9209004847AB /* AppKit.framework */,
+				A9DFB41F241E9209004847AB /* CoreData.framework */,
+				A9DFB420241E9209004847AB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A9DFB421241E9209004847AB /* ddRandomPixelSaver */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFB428241E9209004847AB /* ddRandomPixelSaverView.h */,
+				A9DFB429241E9209004847AB /* ddRandomPixelSaverView.m */,
+				A9DFB422241E9209004847AB /* Supporting Files */,
+			);
+			path = ddRandomPixelSaver;
+			sourceTree = "<group>";
+		};
+		A9DFB422241E9209004847AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFB423241E9209004847AB /* ddRandomPixelSaver-Info.plist */,
+				A9DFB424241E9209004847AB /* InfoPlist.strings */,
+				A9DFB427241E9209004847AB /* ddRandomPixelSaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A9DFB412241E9209004847AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A9DFB415241E9209004847AB /* ddRandomPixelSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "ddRandomPixelSaver" */;
+			buildPhases = (
+				A9DFB410241E9209004847AB /* Sources */,
+				A9DFB411241E9209004847AB /* Frameworks */,
+				A9DFB412241E9209004847AB /* Headers */,
+				A9DFB413241E9209004847AB /* Resources */,
+				A9DFB414241E9209004847AB /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ddRandomPixelSaver;
+			productName = ddRandomPixelSaver;
+			productReference = A9DFB416241E9209004847AB /* ddRandomPixelSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DFB40B241E9209004847AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A9DFB40E241E9209004847AB /* Build configuration list for PBXProject "ddRandomPixelSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9DFB409241E9209004847AB;
+			productRefGroup = A9DFB417241E9209004847AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DFB415241E9209004847AB /* ddRandomPixelSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DFB413241E9209004847AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DFB426241E9209004847AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		A9DFB414241E9209004847AB /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DFB410241E9209004847AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DFB42A241E9209004847AB /* ddRandomPixelSaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9DFB424241E9209004847AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DFB425241E9209004847AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9DFB42B241E9209004847AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A9DFB42C241E9209004847AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9DFB42E241E9209004847AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ddRandomPixelSaver/ddRandomPixelSaver-Prefix.pch";
+				INFOPLIST_FILE = "ddRandomPixelSaver/ddRandomPixelSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		A9DFB42F241E9209004847AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ddRandomPixelSaver/ddRandomPixelSaver-Prefix.pch";
+				INFOPLIST_FILE = "ddRandomPixelSaver/ddRandomPixelSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DFB40E241E9209004847AB /* Build configuration list for PBXProject "ddRandomPixelSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DFB42B241E9209004847AB /* Debug */,
+				A9DFB42C241E9209004847AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "ddRandomPixelSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DFB42E241E9209004847AB /* Debug */,
+				A9DFB42F241E9209004847AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9DFB40B241E9209004847AB /* Project object */;
+}
