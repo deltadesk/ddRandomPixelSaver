@@ -36,30 +36,26 @@
 
 - (void)animateOneFrame
 {
-    NSBezierPath *path;
-    NSRect rect;
-    NSSize size;
-    NSColor *color;
-    float red, green, blue, alpha;
+    // make the point
+    NSRect point;
+    point.size = NSMakeSize( 2, 2);
     
-    size = [self bounds].size;
+    // calculate random origin point
+    point.origin = SSRandomPointForSizeWithinRect( point.size, [self bounds] );
+    NSBezierPath* path = [NSBezierPath bezierPathWithRect:point];
     
-    // Make the point
-    rect.size = NSMakeSize( 2, 2);
-    
-    // Calculate random origin point
-    rect.origin = SSRandomPointForSizeWithinRect( rect.size, [self bounds] );
-    path = [NSBezierPath bezierPathWithRect:rect];
-    
-    // Calculate a random color
-    red = SSRandomFloatBetween( 0.0, 255.0 ) / 255.0;
-    green = SSRandomFloatBetween( 0.0, 255.0 ) / 255.0;
-    blue = SSRandomFloatBetween( 0.0, 255.0 ) / 255.0;
-    alpha = 255.0; //SSRandomFloatBetween( 0.0, 255.0 ) / 255.0;
-    
-    color = [NSColor colorWithCalibratedRed:red green:green blue:blue alpha:alpha];
-    
+    // calculate a random color
+    float red = SSRandomFloatBetween( 0.0, 255.0 ) / 255.0;
+    float green = SSRandomFloatBetween( 0.0, 255.0 ) / 255.0;
+    float blue = SSRandomFloatBetween( 0.0, 255.0 ) / 255.0;
+    float alpha = 255.0;
+    //float alpha = SSRandomFloatBetween( 0.0, 255.0 ) / 255.0;
+
+    // create and set color
+    NSColor* color = [NSColor colorWithCalibratedRed:red green:green blue:blue alpha:alpha];
     [color set];
+    
+    // draw point
     [path fill];
 }
 
