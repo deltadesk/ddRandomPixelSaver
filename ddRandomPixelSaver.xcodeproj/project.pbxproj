@@ -20,10 +20,10 @@
 		A9DFB41E241E9209004847AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A9DFB41F241E9209004847AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A9DFB420241E9209004847AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A9DFB423241E9209004847AB /* ddRandomPixelSaver-Info.plist */ = {isa = PBXFileReference; path = "ddRandomPixelSaver-Info.plist"; sourceTree = "<group>"; };
+		A9DFB423241E9209004847AB /* ddRandomPixelSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ddRandomPixelSaver-Info.plist"; sourceTree = "<group>"; };
 		A9DFB425241E9209004847AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A9DFB427241E9209004847AB /* ddRandomPixelSaver-Prefix.pch */ = {isa = PBXFileReference; path = "ddRandomPixelSaver-Prefix.pch"; sourceTree = "<group>"; };
-		A9DFB428241E9209004847AB /* ddRandomPixelSaverView.h */ = {isa = PBXFileReference; path = ddRandomPixelSaverView.h; sourceTree = "<group>"; };
+		A9DFB427241E9209004847AB /* ddRandomPixelSaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ddRandomPixelSaver-Prefix.pch"; sourceTree = "<group>"; };
+		A9DFB428241E9209004847AB /* ddRandomPixelSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ddRandomPixelSaverView.h; sourceTree = "<group>"; };
 		A9DFB429241E9209004847AB /* ddRandomPixelSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ddRandomPixelSaverView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,9 +110,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A9DFB415241E9209004847AB /* ddRandomPixelSaver */ = {
+		A9DFB415241E9209004847AB /* ddRandomPixels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "ddRandomPixelSaver" */;
+			buildConfigurationList = A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "ddRandomPixels" */;
 			buildPhases = (
 				A9DFB410241E9209004847AB /* Sources */,
 				A9DFB411241E9209004847AB /* Frameworks */,
@@ -124,7 +124,7 @@
 			);
 			dependencies = (
 			);
-			name = ddRandomPixelSaver;
+			name = ddRandomPixels;
 			productName = ddRandomPixelSaver;
 			productReference = A9DFB416241E9209004847AB /* ddRandomPixelSaver.saver */;
 			productType = "com.apple.product-type.bundle";
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9DFB415241E9209004847AB /* ddRandomPixelSaver */,
+				A9DFB415241E9209004847AB /* ddRandomPixels */,
 			);
 		};
 /* End PBXProject section */
@@ -283,7 +283,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "ddRandomPixelSaver" */ = {
+		A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "ddRandomPixels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9DFB42E241E9209004847AB /* Debug */,
