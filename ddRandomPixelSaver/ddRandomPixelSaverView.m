@@ -42,7 +42,18 @@
     
     // calculate random origin point
     point.origin = SSRandomPointForSizeWithinRect( point.size, [self bounds] );
-    NSBezierPath* path = [NSBezierPath bezierPathWithRect:point];
+    
+    // create bezier path
+    // using the convenience constructor... 
+    // NSBezierPath* path = [NSBezierPath bezierPathWithRect:point];
+    
+    // ... or the manual way (this has to call release)
+    NSBezierPath* path = [[NSBezierPath alloc] init];
+    [path moveToPoint:point.origin];
+    [path lineToPoint:NSMakePoint(point.origin.x + point.size.width, point.origin.y)];
+    [path lineToPoint:NSMakePoint(point.origin.x + point.size.width, point.origin.y + point.size.height)];
+    [path lineToPoint:NSMakePoint(point.origin.x,                    point.origin.y + point.size.height)];
+    [path lineToPoint:NSMakePoint(point.origin.x,                    point.origin.y)];
     
     // calculate a random color
     float red = SSRandomFloatBetween( 0.0, 255.0 ) / 255.0;
@@ -51,12 +62,13 @@
     float alpha = 255.0;
     //float alpha = SSRandomFloatBetween( 0.0, 255.0 ) / 255.0;
 
-    // create and set color
+    // create and set the color
     NSColor* color = [NSColor colorWithCalibratedRed:red green:green blue:blue alpha:alpha];
     [color set];
     
     // draw point
     [path fill];
+    [path release];
 }
 
 - (BOOL)hasConfigureSheet
