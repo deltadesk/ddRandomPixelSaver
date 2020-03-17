@@ -15,4 +15,9 @@
     [[NSApplication sharedApplication] endSheet:self.window];
 }
 
+- (IBAction) clickCancel:(id)sender {
+    NSLog(@"Got Cancel click");
+    [[NSApplication sharedApplication] endSheet:self.window];
+}
+
 @end

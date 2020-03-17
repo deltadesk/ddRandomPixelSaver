@@ -12,4 +12,6 @@
 
 - (IBAction) clickOk:(id)sender;
 
+- (IBAction) clickCancel:(id)sender;
+
 @end
