@@ -10,4 +10,9 @@
 
 @implementation ConfigureSheetController
 
+- (IBAction) clickOk:(id)sender {
+    NSLog(@"Got OK click");
+    [[NSApplication sharedApplication] endSheet:self.window];
+}
+
 @end

@@ -10,4 +10,6 @@
 
 @interface ConfigureSheetController : NSWindowController
 
+- (IBAction) clickOk:(id)sender;
+
 @end
