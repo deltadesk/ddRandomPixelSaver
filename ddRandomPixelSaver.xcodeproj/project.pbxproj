@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A95895D12420F91F0017941B /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = A95895D02420F91F0017941B /* ConfigureSheet.xib */; };
+		A95895D42420FC2C0017941B /* ConfigureSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = A95895D22420FC2C0017941B /* ConfigureSheetController.h */; };
+		A95895D52420FC2C0017941B /* ConfigureSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95895D32420FC2C0017941B /* ConfigureSheetController.m */; };
 		A9DFB41A241E9209004847AB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DFB419241E9209004847AB /* Cocoa.framework */; };
 		A9DFB41C241E9209004847AB /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DFB41B241E9209004847AB /* ScreenSaver.framework */; };
 		A9DFB426241E9209004847AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9DFB424241E9209004847AB /* InfoPlist.strings */; };
@@ -15,6 +18,9 @@
 
 /* Begin PBXFileReference section */
 		A92AC3EE241E968C003CFD05 /* DeltaDesk Random Pixels.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DeltaDesk Random Pixels.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95895D02420F91F0017941B /* ConfigureSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
+		A95895D22420FC2C0017941B /* ConfigureSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureSheetController.h; sourceTree = "<group>"; };
+		A95895D32420FC2C0017941B /* ConfigureSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureSheetController.m; sourceTree = "<group>"; };
 		A9DFB419241E9209004847AB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A9DFB41B241E9209004847AB /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 		A9DFB41E241E9209004847AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -80,6 +86,9 @@
 		A9DFB421241E9209004847AB /* ddRandomPixelSaver */ = {
 			isa = PBXGroup;
 			children = (
+				A95895D02420F91F0017941B /* ConfigureSheet.xib */,
+				A95895D22420FC2C0017941B /* ConfigureSheetController.h */,
+				A95895D32420FC2C0017941B /* ConfigureSheetController.m */,
 				A9DFB428241E9209004847AB /* ddRandomPixelSaverView.h */,
 				A9DFB429241E9209004847AB /* ddRandomPixelSaverView.m */,
 				A9DFB422241E9209004847AB /* Supporting Files */,
@@ -104,6 +113,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A95895D42420FC2C0017941B /* ConfigureSheetController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9DFB426241E9209004847AB /* InfoPlist.strings in Resources */,
+				A95895D12420F91F0017941B /* ConfigureSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9DFB42A241E9209004847AB /* ddRandomPixelSaverView.m in Sources */,
+				A95895D52420FC2C0017941B /* ConfigureSheetController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
