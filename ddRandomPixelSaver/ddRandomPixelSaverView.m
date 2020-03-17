@@ -75,4 +75,10 @@
     return [configureSheetController window];
 }
 
+- (void)dealloc
+{
+    [configureSheetController release];
+    [super dealloc];
+}
+
 @end
