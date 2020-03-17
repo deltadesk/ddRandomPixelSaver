@@ -7,7 +7,10 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import "ConfigureSheetController.h"
 
 @interface ddRandomPixelSaverView : ScreenSaverView
+
+@property (retain) ConfigureSheetController* configureSheetController;
 
 @end
