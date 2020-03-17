@@ -10,18 +10,16 @@
 
 @implementation ddRandomPixelSaverView
 
-@synthesize configureSheetController;
-
 - (id)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
 {
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
         [self setAnimationTimeInterval:1/60.0];
+        
+        // load configure sheet
+        configureSheetController = [[ConfigureSheetController alloc] initWithWindowNibName:@"ConfigureSheet"];
     }
-    
-    // load configure sheet
-    configureSheetController = [[ConfigureSheetController alloc] initWithWindowNibName:@"ConfigureSheet"];
-    
+
     return self;
 }
 
