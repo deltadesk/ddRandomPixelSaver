@@ -8,7 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ConfigureSheetController : NSWindowController
+@interface ConfigureSheetController : NSWindowController {
+    
+    IBOutlet id fpsSlider;
+}
 
 - (IBAction) clickOk:(id)sender;
 

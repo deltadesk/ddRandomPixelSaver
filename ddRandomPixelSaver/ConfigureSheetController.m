@@ -11,12 +11,14 @@
 @implementation ConfigureSheetController
 
 - (IBAction) clickOk:(id)sender {
-    NSLog(@"Got OK click");
+    
+    int newFPSValue = [fpsSlider intValue];
+    NSLog(@"ddRandomPixelSaverView: Got OK click. Slider value=%d", newFPSValue);
+    
     [[NSApplication sharedApplication] endSheet:self.window];
 }
 
 - (IBAction) clickCancel:(id)sender {
-    NSLog(@"Got Cancel click");
     [[NSApplication sharedApplication] endSheet:self.window];
 }
 
