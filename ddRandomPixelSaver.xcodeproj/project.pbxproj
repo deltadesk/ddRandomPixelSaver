@@ -120,9 +120,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A9DFB415241E9209004847AB /* DeltaDesk Random Pixels */ = {
+		A9DFB415241E9209004847AB /* ddRandomPixels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "DeltaDesk Random Pixels" */;
+			buildConfigurationList = A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "ddRandomPixels" */;
 			buildPhases = (
 				A9DFB410241E9209004847AB /* Sources */,
 				A9DFB411241E9209004847AB /* Frameworks */,
@@ -134,7 +134,7 @@
 			);
 			dependencies = (
 			);
-			name = "DeltaDesk Random Pixels";
+			name = ddRandomPixels;
 			productName = ddRandomPixelSaver;
 			productReference = A92AC3EE241E968C003CFD05 /* DeltaDesk Random Pixels.saver */;
 			productType = "com.apple.product-type.bundle";
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9DFB415241E9209004847AB /* DeltaDesk Random Pixels */,
+				A9DFB415241E9209004847AB /* ddRandomPixels */,
 			);
 		};
 /* End PBXProject section */
@@ -295,7 +295,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "DeltaDesk Random Pixels" */ = {
+		A9DFB42D241E9209004847AB /* Build configuration list for PBXNativeTarget "ddRandomPixels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9DFB42E241E9209004847AB /* Debug */,
